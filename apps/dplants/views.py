@@ -5,7 +5,10 @@ from .models import *
 
 
 def cargarIndiex(request):
+    
+    
     return render(request,"indiex.html")
+
 
 
 def cargarSesion(request): 
@@ -13,3 +16,4 @@ def cargarSesion(request):
 
 def cargarRegistro(request): 
     return render(request,"singUp.html")
+
