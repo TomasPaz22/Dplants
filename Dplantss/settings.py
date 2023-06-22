@@ -78,6 +78,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'dplants.sqlite3',
+        'USER': 'admin',
+        'PASSWORD': '1234'
         
         
         
